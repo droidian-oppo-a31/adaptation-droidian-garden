@@ -1,0 +1,22 @@
+Source: adaptation-droidian-garden
+Maintainer: Erwin Kurniawan
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/droidian-oppo-a31/adaptation-droidian-garden
+Vcs-Git: https://github.com/droidian-oppo-a31/adaptation-droidian-garden.git
+
+Package: adaptation-droidian-garden
+Architecture: all
+Depends: ${misc:Depends},
+         adaptation-hybris-api28-phone,
+         adaptation-garden-configs,
+         wlr-randr,
+Description: adapatation-garden-meta
+ garden api28 adaptation metapackage
+
+Package: adaptation-garden-configs
+Architecture: all
+Depends: ${misc:Depends},
+Description: garden's adaptation configs
